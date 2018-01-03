@@ -1,0 +1,2733 @@
+{ "mp_list" : [
+  {
+    "con": "Parvathipuram",
+    "name": "Vyricherla Kishore Chandra Suryanarayana Deo",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bobbili",
+    "name": "Botsa Jhansi Lakshmi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Visakhapatnam",
+    "name": "Nedurumalli Janardhana Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bhadrachalam",
+    "name": "Babu Rao Mediyam",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Anakapalli",
+    "name": "Pappala Chalapathirao",
+    "party": "Telugu Desam Party"
+  },
+  {
+    "con": "Kakinada",
+    "name": "Mallipudi Raju Pallam Mangapati",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Rajahmundry",
+    "name": "Aruna Kumar Vundavalli",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Amalapuram",
+    "name": "G.V. Harsha Kumar",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Narasapur",
+    "name": "Chegondi Venkata Harirama Jogaiah",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Eluru",
+    "name": "Kavuru Samba Siva Rao",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Machilipatnam",
+    "name": "Ramakrishna Badiga",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Vijayawada",
+    "name": "Kesineni Srinivasa Rao",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Tenali",
+    "name": "Balashowry Vallabhaneni",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Guntur",
+    "name": "Sambasiva Rayapati Rao",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bapatla",
+    "name": "Daggubati Purandareswari",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Narasaraopet",
+    "name": "Mekapati Rajamohan Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Ongole",
+    "name": "Magunta Sreenivasulu Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nellore",
+    "name": "Lakshmi Panabaka",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Tirupathi",
+    "name": "Chinta Mohan",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Chittoor",
+    "name": "D.K. Audikesavulu",
+    "party": "Telugu Desam Party"
+  },
+  {
+    "con": "Rajampet",
+    "name": "Sai Prathap Annayyagari",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Cuddapah",
+    "name": "Y. S. Vivekananda Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Hindupur",
+    "name": "G Nizamuddin",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Anantapur",
+    "name": "Anantha Venkatarami Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kurnool",
+    "name": "Kotla Jayasurya Prakasha Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nandyal",
+    "name": "S. P. Y. Reddy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nagarkurnool",
+    "name": "Dr. Manda Jagannath",
+    "party": "Telugu Desam Party"
+  },
+  {
+    "con": "Mahabubnagar",
+    "name": "D. Vittal Rao",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Hyderabad",
+    "name": "Asaduddin Owaisi",
+    "party": "All India Majlis-e-Ittehadul Muslimen"
+  },
+  {
+    "con": "Secunderabad",
+    "name": "M. Anjan Kumar Yadav",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Siddipet",
+    "name": "Sarvey Sathyanarayana",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Medak",
+    "name": "A. Narendra",
+    "party": "Telangana Rashtra Samithi"
+  },
+  {
+    "con": "Nizamabad",
+    "name": "Madhu Goud Yaskhi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Adilabad",
+    "name": "Indrakaran Reddy Takkala",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Peddapalli",
+    "name": "G. Venkat Swamy",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Karimnagar",
+    "name": "K. Chandrashekar Rao",
+    "party": "Telangana Rashtra Samithi"
+  },
+  {
+    "con": "Hanamkonda",
+    "name": "B. Vinod Kumar",
+    "party": "Telangana Rashtra Samithi"
+  },
+  {
+    "con": "Warangal",
+    "name": "Yerrabelli Dayakararao",
+    "party": "Telugu Desam Party"
+  },
+  {
+    "con": "Khammam",
+    "name": "Renuka Chowdhury",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nalgonda",
+    "name": "Suravaram Sudhakar Reddy",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Miryalguda",
+    "name": "Jaipal Reddy Sudini",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Srikakulam",
+    "name": "Yerranaidu Kinjarapu",
+    "party": "Telugu Desam Party"
+  },
+  {
+    "con": "Arunachal West",
+    "name": "Kiren Rijiju",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Arunchal East",
+    "name": "Tapir Gao",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Karimganj ",
+    "name": "Lalit Mohan Suklabaidya",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Silchar",
+    "name": "Sontosh Mohan Dev",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Autonomous District ",
+    "name": "Biren Singh Engti",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Dhubri",
+    "name": "Anwar Hussain (politician)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kokrajhar ",
+    "name": "Sansuma Khunggur Bwiswmuthiary",
+    "party": "Bodoland People's Front"
+  },
+  {
+    "con": "Barpeta",
+    "name": "A. F. Golam Osmani",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Gauhati",
+    "name": "Kirip Chaliha",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mangaldoi",
+    "name": "Narayan Chandra Borkataky",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Tezpur",
+    "name": "Moni Kumar Subba",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nowgong",
+    "name": "Rajen Gohain",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Kaliabor",
+    "name": "Dip Gogoi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jorhat",
+    "name": "Bijoy Krishna Handique",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Dibrugarh",
+    "name": "Sarbananda Sonowal",
+    "party": "Asom Gana Parishad"
+  },
+  {
+    "con": "Lakhimpur",
+    "name": "Arun Kumar Sarmah",
+    "party": "Asom Gana Parishad"
+  },
+  {
+    "con": "Bagaha",
+    "name": "Kailash Baitha",
+    "party": "Janata Dal (United)"
+  },
+  {
+    "con": "Bettiah",
+    "name": "Raghunath Jha",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Motihari",
+    "name": "Akhilesh Prasad Singh",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Gopalganj",
+    "name": "Anirudh Prasad alias Sadhu Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Siwan",
+    "name": "Mohammad Shahabuddin",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Maharajganj",
+    "name": "Prabhunath Singh",
+    "party": "Janata Dal (United)"
+  },
+  {
+    "con": "Chapra",
+    "name": "Lalu Prasad",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Hajipur ",
+    "name": "Ram Vilas Paswan",
+    "party": "Lok Janshakti Party"
+  },
+  {
+    "con": "Vaishali",
+    "name": "Raghubansh Prasad Singh",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Muzaffarpur",
+    "name": "George Fernandes",
+    "party": "Janata Dal (United)"
+  },
+  {
+    "con": "Sitamarhi",
+    "name": "Sitaram Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Sheohar",
+    "name": "Sitaram Singh",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Madhubani",
+    "name": "Dr. Shakeel Ahmad",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jhanjharpur",
+    "name": "Devendra Prasad Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Darbhanga",
+    "name": "Md. Ali Ashraf Fatmi",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Rosera ",
+    "name": "Ram Chandra Paswan",
+    "party": "Lok Janshakti Party"
+  },
+  {
+    "con": "Samastipur",
+    "name": "Alok Kumar Mehta",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Barh",
+    "name": "Vijay Krishna",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Balia",
+    "name": "Surajbhan Singh",
+    "party": "Lok Janshakti Party"
+  },
+  {
+    "con": "Saharsa",
+    "name": "Ranjeet Ranjan",
+    "party": "Lok Janshakti Party"
+  },
+  {
+    "con": "Madhepura",
+    "name": "Rajesh Ranjan alias Pappu Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Araria ",
+    "name": "Sukdeo Paswan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Kishanganj",
+    "name": "Md.Taslimuddin",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Purnea",
+    "name": "Uday Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Katihar",
+    "name": "Nikhil Kumar Choudhary",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Banka",
+    "name": "Giridhari Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Bhagalpur",
+    "name": "Syed Shahnawaz Hussain",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Khagaria",
+    "name": "Rabindra Ku. Rana",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Monghyr",
+    "name": "Jay Prakash Narayan Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Begusarai",
+    "name": "Rajiv Ranjan Singh",
+    "party": "Janata Dal (United)"
+  },
+  {
+    "con": "Nalanda",
+    "name": "Virchandra Paswan",
+    "party": "Janata Dal (United)Rashtriya Janata Dal"
+  },
+  {
+    "con": "Patna",
+    "name": "Ram Kripal Yadav",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Arrah",
+    "name": "Kanti Singh",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Buxar",
+    "name": "Lalmuni Chaubey",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sasaram ",
+    "name": "Mira Kumar",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bikramganj",
+    "name": "Ajit Kumar Singh",
+    "party": "Janata Dal (United)"
+  },
+  {
+    "con": "Aurangabad",
+    "name": "Nikhil Kumar",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jahanabad",
+    "name": "Ganesh Prasad Singh",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Nawada ",
+    "name": "Virchandra Paswan",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Gaya ",
+    "name": "Rajesh Kumar Manjhi",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Surguja ",
+    "name": "Nand Kumar Sai",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Raigarh ",
+    "name": "Vishnudeo Sai",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Janjgir",
+    "name": "Karuna Shukla",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bilaspur ",
+    "name": "Punnulal Mohle",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sarangarh ",
+    "name": "Guharam Ajgalle",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Raipur",
+    "name": "Ramesh Bais",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mahasamund",
+    "name": "Ajit Jogi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kanker ",
+    "name": "Sohan Potai",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bastar ",
+    "name": "Baliram Kashyap",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Durg",
+    "name": "Tarachand Sahu",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Rajnandgaon",
+    "name": "Pradeep Gandhi (Expelled from Lok Sabha)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Rajnandgaon",
+    "name": "Devwrat Singh (2007 by-elections)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Panaji",
+    "name": "Shripad Yasso Naik",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mormugao",
+    "name": "Churchill Braz Alemao",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kutch",
+    "name": "Pushpdan Shambhudan Gadhavi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Surendranagar",
+    "name": "Somabhai Gandalal Koli Patel",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jamnagar",
+    "name": "Ahir Vikrambhai Arjanbhai Madam",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Rajkot",
+    "name": "Dr. Vallabhbhai Kathiria",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Porbandar",
+    "name": "Harilal Madhavjibhai Patel",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Junagadh",
+    "name": "Jashubhai Dhanabhai Barad",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Amreli",
+    "name": "Virjibhai Thummar",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bhavnagar",
+    "name": "Rajendrasinh Ghanshyamsinh Rana",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dhandhuka ",
+    "name": "Ratilal Kalidas Varma",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Ahmedabad",
+    "name": "Harin Pathak",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Gandhinagar",
+    "name": "L. K. Advani",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mehsana",
+    "name": "Jivabhai Ambalal Patel",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Patan ",
+    "name": "Mahesh Kumar Kanodia",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Banaskantha",
+    "name": "Harisinh Pratapsinh Chavda",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sabarkantha",
+    "name": "Mahendrasinh Chauhan",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kapadvanj",
+    "name": "Vaghela Shankersinh Laxmansinh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Dohad ",
+    "name": "Babubhai Khimabhai Katara",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Godhra",
+    "name": "Bhupendrasinh Prabhatsinh Solanki",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Kaira",
+    "name": "Dinsha Patel",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Anand",
+    "name": "Bharatsinh Madhavsinh Solanki",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Chhota Udaipur ",
+    "name": "Naranbhai Rathwa",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Vadodara",
+    "name": "Jayaben Thakkar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bharuch",
+    "name": "Mansukhbhai Vasava",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Surat",
+    "name": "Kashiram Rana",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mandvi ",
+    "name": "Tushar Amarsinh Chaudhary",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bulsar ",
+    "name": "Kishanbhai Vestabhai Patel",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Ambala ",
+    "name": "Selja Kumari",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kurukshetra",
+    "name": "Naveen Jindal",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Karnal",
+    "name": "Arvind Kumar Sharma",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sonepat",
+    "name": "Kishan Singh Sangwan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Rohtak",
+    "name": "Deepender Singh Hooda",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Faridabad",
+    "name": "Avtar Singh Bhadana",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mahendragarh",
+    "name": "Inderjit Singh Rao",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bhiwani",
+    "name": "Kuldeep Bishnoi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Hissar",
+    "name": "Jai Parkash",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sirsa ",
+    "name": "Atma Singh Gill",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Simla ",
+    "name": "Dhani Ram Shandil",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mandi",
+    "name": "Pratibha Singh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kangra",
+    "name": "Dr Rajan Sushant",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Hamirpur",
+    "name": "Anurag Thakur",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Baramulla",
+    "name": "Abdul Rashid Shaheen",
+    "party": "Jammu & Kashmir National Conference"
+  },
+  {
+    "con": "Srinagar",
+    "name": "Omar Abdullah",
+    "party": "Jammu & Kashmir National Conference"
+  },
+  {
+    "con": "Anantnag",
+    "name": "Mehbooba Mufti",
+    "party": "Jammu & Kashmir Peoples Democratic Party"
+  },
+  {
+    "con": "Ladakh",
+    "name": "Thupstan Chhewang",
+    "party": "Independent"
+  },
+  {
+    "con": "Udhampur",
+    "name": "Ch. Lal Singh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jammu",
+    "name": "Madan Lal Sharma",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Rajmahal ",
+    "name": "Hemlal Murmu",
+    "party": "Jharkhand Mukti Morcha"
+  },
+  {
+    "con": "Dumka ",
+    "name": "Shibu Soren",
+    "party": "Jharkhand Mukti Morcha"
+  },
+  {
+    "con": "Godda",
+    "name": "Furkan Ansari",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Chatra",
+    "name": "Dhirendra Agarwal",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Kodarma",
+    "name": "Babulal Marandi",
+    "party": "Jharkhand Vikas Morcha"
+  },
+  {
+    "con": "Giridh",
+    "name": "Tek Lal Mahto",
+    "party": "Jharkhand Mukti Morcha"
+  },
+  {
+    "con": "Dhanbad",
+    "name": "Chandra Shekhar Dubey",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Ranchi",
+    "name": "Subodh Kant Sahay",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jamshedpur",
+    "name": "Sunil Kumar Mahato (Assassinated)",
+    "party": "Jharkhand Mukti Morcha"
+  },
+  {
+    "con": "Jamshedpur",
+    "name": "Suman Mahato (2007 By-elections)",
+    "party": "Jharkhand Mukti Morcha"
+  },
+  {
+    "con": "Singbhum ",
+    "name": "Bagun Sumbrai",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Khunti ",
+    "name": "Sushila Kerketta",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Lohardaga ",
+    "name": "Rameshwar Oraon",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Palamau ",
+    "name": "Dhuran Ram",
+    "party": "Rashtriya Janata Dal"
+  },
+  {
+    "con": "Hazaribagh",
+    "name": "Bhubneshwar Prasad Mehta",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Bidar ",
+    "name": "Ramchandra Veerappa (expired)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bidar ",
+    "name": "Narsing Hulla Suryawanshi (2004 By-elections)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Gulbarga",
+    "name": "Iqbal Ahmed Saradgi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Raichur",
+    "name": "A. Venkatesh Naik",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Koppal",
+    "name": "K. Virupaxappa",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bellary",
+    "name": "Gali Karunakara Reddy",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Davangere",
+    "name": "G.M. Siddeswara",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chitradurga",
+    "name": "N.Y. Hanumanthappa",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Tumkur",
+    "name": "S. Mallikarjunaiah",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chikballapur",
+    "name": "R.L. Jalappa",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kolar ",
+    "name": "K.H. Muniyappa",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kanakapura",
+    "name": "Tejashwini Ramesh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bangalore North",
+    "name": "H. T. Sangliana",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bangalore South",
+    "name": "Ananth Kumar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mandya",
+    "name": "Ambareesh M. H.",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Chamarajnagar ",
+    "name": "M. Shivanna",
+    "party": "Janata Dal (Secular)"
+  },
+  {
+    "con": "Mysore",
+    "name": "C. H. Vijayashankar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mangalore",
+    "name": "D. V. Sadananda Gowda",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Udupi",
+    "name": "Manorama Madhwaraj",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Hassan",
+    "name": "H. D. Devegowda",
+    "party": "Janata Dal (Secular)"
+  },
+  {
+    "con": "Chikmagalur",
+    "name": "D. C. Srikantappa",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Shimoga",
+    "name": "S. Bangarappa",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Kanara",
+    "name": "Ananthkumar Hegde",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dharwad South",
+    "name": "Kunnur Manjunath Channappa",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dharwad North",
+    "name": "Pralhad Joshi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Belgaum",
+    "name": "Angadi Suresh Chanabasappa",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chikkodi ",
+    "name": "Jigajinagi Ramesh Chandappa",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bagalkot",
+    "name": "Gaddigoudar Parvatagouda Chandanagouda",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bijapur",
+    "name": "Basanagouda R Patil (Yatnal)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Kasaragod",
+    "name": "P. Karunakaran",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Cannanore",
+    "name": "A. P. Abdullakutty",
+    "party": "Independent"
+  },
+  {
+    "con": "Vatakara",
+    "name": "P. Satheedevi",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Kozhikode",
+    "name": "M. P. Veerendra Kumar",
+    "party": "Janata Dal (Secular)"
+  },
+  {
+    "con": "Manjeri",
+    "name": "T. K. Hamza",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Ponnani",
+    "name": "E. Ahammed",
+    "party": "Indian Union Muslim League"
+  },
+  {
+    "con": "Palghat",
+    "name": "N. N. Krishnadas",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Ottapalam ",
+    "name": "S. Ajaya Kumar",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Trichur",
+    "name": "C. K. Chandrappan",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Mukundapuram",
+    "name": "Lonappan Nambadan",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Ernakulam",
+    "name": "Dr. Sebastian Paul",
+    "party": "Communist Party of India (Marxist) Independent"
+  },
+  {
+    "con": "Muvattapuzha",
+    "name": "P. C. Thomas (Pullolil)",
+    "party": "Indian Federal Democratic Party"
+  },
+  {
+    "con": "Kottayam",
+    "name": "K. Suresh Kurup",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Idukki",
+    "name": "K. Francis George",
+    "party": "Kerala Congress (Joseph)"
+  },
+  {
+    "con": "Alleppey",
+    "name": "Dr. K. S. Manoj",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Mavelikara",
+    "name": "C. S. Sujatha",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Adoor ",
+    "name": "Chengara Surendran",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Quilon",
+    "name": "P. Rajendran",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Chirayinkil",
+    "name": "Varkala Radhakrishnan",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Trivandrum",
+    "name": "Pannyan Raveendran",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Morena ",
+    "name": "Ashok Chhaviram Argal",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bhind",
+    "name": "Dr. Ramlakhan Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Gwalior",
+    "name": "Ramsevak Singh (Expelled)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Gwalior",
+    "name": "Yashodhara Raje Scindia (2007 By-election)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Guna",
+    "name": "Jyotiraditya Madhavrao Scindia",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sagar ",
+    "name": "Virendra Kumar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Khajuraho",
+    "name": "Dr. Ramkrishna Kushmariya \"Baba Jee\"",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Damoh",
+    "name": "Chandrabhan Bhaiya",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Satna",
+    "name": "Ganesh Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Rewa",
+    "name": "Chandramani Tripathi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sidhi ",
+    "name": "Chandrapratap Singh ( Expelled )",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sidhi ",
+    "name": "Manik Singh (2007 by-elections)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Shahdol ",
+    "name": "Dalpat Singh Paraste",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Balaghat",
+    "name": "Gauri Shankar Chaturbhuj Bisen",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mandla ",
+    "name": "Faggan Singh Kulaste",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jabalpur",
+    "name": "Rakesh Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Seoni",
+    "name": "Neeta Pateriya",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chhindwara",
+    "name": "Kamalnath",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Betul",
+    "name": "Vijay Kumar Khandelwal (expired in Nov 2007)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Betul",
+    "name": "Hemant Khandelwal (2008 by-elections)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Hoshangabad",
+    "name": "Sartaj Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bhopal",
+    "name": "Kailash Joshi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Vidisha",
+    "name": "Rampal Singh, Jujhar Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Rajgarh",
+    "name": "Lakshman Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Shajapur ",
+    "name": "Thawar Chand Gehlot",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Khandwa",
+    "name": "Nand Kumar Singh Chauhan (Nandu Bhaiya)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Khargone",
+    "name": "Krishna Murari Moghe",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dhar ",
+    "name": "Chhatar Singh Darbar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Indore",
+    "name": "Sumitra Mahajan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Ujjain ",
+    "name": "Dr.Satyanarayan Jatiya",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jhabua ",
+    "name": "Kantilal Bhuria",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mandsaur",
+    "name": "Dr. Laxminarayan Pandeya",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Rajapur",
+    "name": "Suresh Prabhakar Prabhu",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Ratnagiri",
+    "name": "Anant Geete",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Kolaba",
+    "name": "A. R. Antulay",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mumbai South",
+    "name": "Milind Murli Deora",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mumbai South Central",
+    "name": "Mohan Rawale",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Mumbai North Central",
+    "name": "Eknath M. Gaikwad",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mumbai North East",
+    "name": "Kamat Gurudas",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mumbai North West",
+    "name": "Priya Sunil Dutt (2005-By-elections)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mumbai North West",
+    "name": "Sunil Dutt (2004–2005)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Mumbai North",
+    "name": "Govinda",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Thane",
+    "name": "Anand Prakash Paranjape (2008 By-elections)",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Thane",
+    "name": "Prakash Paranjape (2004–2008)",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Dahanu ",
+    "name": "Damodar Barku Shingada",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nashik",
+    "name": "Devidas Anandrao Pingale",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Malegaon ",
+    "name": "Harischandra Devram Chavan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dhule ",
+    "name": "Bapu Hari Chaure",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nandurbar ",
+    "name": "Manikrao Hodlya Gavit",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Erandol",
+    "name": "Adv.Vasantrao J More (2007-By-elections)",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Erandol",
+    "name": "Annasaheb M. K. Patil (2004–2005) Expelled",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jalgaon",
+    "name": "Haribhau Jawale (2007 By-elections)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jalgaon",
+    "name": "Y. G. Mahajan (2004–2005)Expelled",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Buldhana ",
+    "name": "Anandrao Vithoba Adsul",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Akola",
+    "name": "Sanjay Shamrao Dhotre",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Washim",
+    "name": "Bhavana Pundlikrao Gawali",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Amravati",
+    "name": "Anant Gudhe",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Ramtek",
+    "name": "Prakash Jadhav (2007-Bye elections)",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Ramtek",
+    "name": "Subodh Mohite (2004–2006)Resigned",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Nagpur",
+    "name": "Vilas Muttemwar",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bhandara",
+    "name": "Shishupal Natthu Patle",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chimur",
+    "name": "Mahadeorao Sukaji Shivankar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chandrapur",
+    "name": "Hansraj Gangaram Ahir",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Wardha",
+    "name": "Suresh Ganapat Wagmare",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Yavatmal",
+    "name": "Harising Nasaru Rathod",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Hingoli",
+    "name": "Suryakanta Patil",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Nanded",
+    "name": "D. B. Patil",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Parbhani",
+    "name": "Tukaram Ganpatrao Renge Patil",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Jalna",
+    "name": "Raosaheb Dadarao Danve",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Aurangabad",
+    "name": "Chandrakant Khaire",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Beed",
+    "name": "Jaisingrao Gaikwad Patil",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Latur",
+    "name": "Rupatai Diliprao Nilangekar Patil",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Osmanabad ",
+    "name": "Kalpana Ramesh Narhire",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Solapur",
+    "name": "Subhash Sureshchandra Deshmukh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Pandharpur ",
+    "name": "Ramdas Athawale",
+    "party": "Republican Party of India (Athvale)"
+  },
+  {
+    "con": "Ahmednagar",
+    "name": "Tukaram Gangadhar Gadakh",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Kopargaon",
+    "name": "Balasaheb Vikhe Patil",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Khed",
+    "name": "Shivajirao Adhalarao Patil",
+    "party": "Shiv Sena"
+  },
+  {
+    "con": "Pune",
+    "name": "Suresh Kalmadi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Baramati",
+    "name": "Sharad Pawar",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Satara",
+    "name": "Laxmanrao Pandurang Jadhav (Patil)",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Karad",
+    "name": "Shriniwas Dadasaheb Patil",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Sangli",
+    "name": "Pratik Prakashbapu Patil (2006 By-elections)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sangli",
+    "name": "Prakashbapu Vasantdada Patil (2004–2005)",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Ichalkaranji",
+    "name": "Nivedita Sambhajirao Mane",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Kolhapur",
+    "name": "Sadashivrao Dadoba Mandlik",
+    "party": "Nationalist Congress Party"
+  },
+  {
+    "con": "Inner Manipur",
+    "name": "Dr. Thokchom Meinya",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Outer Manipur ",
+    "name": "Thangso Baite",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Shillog",
+    "name": "Paty Ripple Kyndiah",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Tura",
+    "name": "Agatha Sangma",
+    "party": "Nationalist Trinamool Congress"
+  },
+  {
+    "con": "Mizoram ",
+    "name": "Vanlalzawma",
+    "party": "Mizo National Front"
+  },
+  {
+    "con": "Nagaland",
+    "name": "W. Wangyuh",
+    "party": "Nagaland Peoples Front"
+  },
+  {
+    "con": "Mayurbhanj ",
+    "name": "Sudam Marndi",
+    "party": "Jharkhand Mukti Morcha"
+  },
+  {
+    "con": "Balasore",
+    "name": "Mahamegha Bahan Aira Kharbela Swain",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bhadrak ",
+    "name": "Arjun Charan Sethi",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Jajpur ",
+    "name": "Mohan Jena",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Kendrapara",
+    "name": "Archana Nayak",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Cuttack",
+    "name": "Bhartruhari Mahtab",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Jagatsinghpur",
+    "name": "Brahmananda Panda",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Puri",
+    "name": "Braja Kishore Tripathy",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Bhubaneswar",
+    "name": "Prasanna Kumar Patasani",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Aska",
+    "name": "Hari Har Swain",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Berhampur",
+    "name": "Chandra Sekhar Sahu",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Koraput ",
+    "name": "Giridhar Gamang",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nowrangpur ",
+    "name": "Parsuram Majhi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Kalahandi",
+    "name": "Bikram Keshari Deo",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Phulbani ",
+    "name": "Sugrib Singh",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Bolangir",
+    "name": "Sangeeta Kumari Singh Deo",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sambalpur",
+    "name": "Prasanna Acharya",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Deogarh",
+    "name": "Dharmendra Pradhan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dhenkanal",
+    "name": "Tathagata Satapathy",
+    "party": "Biju Janata Dal"
+  },
+  {
+    "con": "Sundargarh ",
+    "name": "Jual Oram",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Keonjhar ",
+    "name": "Ananta Nayak",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Gurdaspur",
+    "name": "Vinod Khanna",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Amritsar",
+    "name": "Navjot Singh Sidhu (resigned but re-elected)",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Tarntaran",
+    "name": "Dr. Rattan Singh Ajnala",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Jullundur",
+    "name": "Rana Gurjeet Singh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Phillaur ",
+    "name": "Charanjit Singh Atwal",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Hoshiarpur",
+    "name": "Avinash Rai Khanna",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Ropar ",
+    "name": "Sukhdev Singh Libra",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Patiala",
+    "name": "Preneet Kaur",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Ludhiana",
+    "name": "Sharanjit Singh Dhillon",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Sangrur",
+    "name": "Sukhdev Singh Dhindsa",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Bhatinda ",
+    "name": "Paramjit Kaur Gulshan",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Faridkot",
+    "name": "Sukhbir Singh Badal",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Firozpur",
+    "name": "Zora Singh Maan",
+    "party": "Shiromani Akali Dal"
+  },
+  {
+    "con": "Ganganagar ",
+    "name": "Nihalchand Chauhan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bikaner",
+    "name": "Dharmendra",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Churu",
+    "name": "Ram Singh Kaswan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jhunjhunu",
+    "name": "Sis Ram Ola",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sikar",
+    "name": "Subhash Maharia",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jaipur",
+    "name": "Girdhari Lal Bhargava",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Dausa",
+    "name": "Sachin Pilot",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Alwar",
+    "name": "Dr. Karan Singh Yadav",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Bharatpur",
+    "name": "Vishvendra Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bayana ",
+    "name": "Ramswaroop Koli",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sawai Madhopur ",
+    "name": "Namo Narain Meena",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Ajmer",
+    "name": "Rasa Singh Rawat",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Tonk ",
+    "name": "Kailash Meghwal",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Kota",
+    "name": "Ijyaraj Singh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jhalawar",
+    "name": "Dushyant Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Banswara ",
+    "name": "Dhan Singh Rawat",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Salumber ",
+    "name": "Mahaveer Bhagora",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Udaipur",
+    "name": "Kiran Maheshwari",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Chittorgarh",
+    "name": "Shrichand Kriplani",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bhilwara",
+    "name": "Vijayendrapal Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Pali",
+    "name": "Pusp Jain",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jalore ",
+    "name": "B. Susheela",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Barmer",
+    "name": "Manvendra Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Jodhpur",
+    "name": "Jaswant Singh Bishnoi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Nagaur",
+    "name": "Bhanwar Singh Dangawas",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Sikkim",
+    "name": "Nakul Das Rai",
+    "party": "Sikkim Democratic Front"
+  },
+  {
+    "con": "Chennai North",
+    "name": "C Kuppusami",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Chennai Central",
+    "name": "Dayanidhi Maran",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Chennai South",
+    "name": "T.R. Baalu",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Sriperumbudur ",
+    "name": "A. Krishnaswamy",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Chengalpattu",
+    "name": "A.K. Moorthy",
+    "party": "Pattali Makkal Katchi"
+  },
+  {
+    "con": "Arakkonam",
+    "name": "R. Velu",
+    "party": "Pattali Makkal Katchi"
+  },
+  {
+    "con": "Vellore",
+    "name": "K.M. Kader Mohideen",
+    "party": "Indian Union Muslim League(elected on DMK symbol)"
+  },
+  {
+    "con": "Tiruppattur",
+    "name": "D. Venugopal",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Vandavasi",
+    "name": "N. Ramachandran Gingee",
+    "party": "Marumalarchi Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Tindivanam",
+    "name": "K. Dhanaraju",
+    "party": "Pattali Makkal Katchi"
+  },
+  {
+    "con": "Cuddalore",
+    "name": "K. Venkatapathy",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Chidambaram ",
+    "name": "E. Ponnuswamy",
+    "party": "Pattali Makkal Katchi"
+  },
+  {
+    "con": "Dharampuri",
+    "name": "Dr. R. Senthil",
+    "party": "Pattali Makkal Katchi"
+  },
+  {
+    "con": "Krishnagiri",
+    "name": "E.G. Sugavanam",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Rasipuram ",
+    "name": "K. Rani",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Salem",
+    "name": "K. V. Thangkabalu",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Tiruchengode",
+    "name": "Subbulakshmi Jagadeesan",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Nilgiris",
+    "name": "R. Prabhu",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Gobichettipalayam",
+    "name": "E.V.K.S. Elangovan",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Coimbatore",
+    "name": "K. Subbarayan",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Pollachi ",
+    "name": "Dr. C. Krishnan",
+    "party": "Marumalarchi Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Palani",
+    "name": "S.K. Kharventhan",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Dindigul",
+    "name": "N.S.V. Chitthan",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Madurai",
+    "name": "P. Mohan",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Periyakulam",
+    "name": "J.M. Aaron Rashid",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Karur",
+    "name": "K.C. Palanisamy",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Tiruchirappalli",
+    "name": "L. Ganesan",
+    "party": "Marumalarchi Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Perambalur ",
+    "name": "A. Raja",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Mayiladuturai",
+    "name": "Mani Shankar Aiyar",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Nagapattinam ",
+    "name": "A.K.S. Vijayan",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Thanjavur",
+    "name": "S.S. Palanimanickam",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Pudukkottai",
+    "name": "S. Regupathy",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Shivaganga",
+    "name": "P. Chidambaram",
+    "party": "Congress Janakeya Peravai (elected on INC symbol)"
+  },
+  {
+    "con": "Ramanathapuram",
+    "name": "M.S.K. Bhavani Rajenthiran",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Sivakasi",
+    "name": "A. Ravichandran",
+    "party": "Marumalarchi Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Tirunelveli",
+    "name": "R. Dhanuskodi Athithan",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Tenkasi ",
+    "name": "M. Appadurai",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Tiruchendur",
+    "name": "V. Radhika Selvi",
+    "party": "Dravida Munnetra Kazhagam"
+  },
+  {
+    "con": "Nagercoil",
+    "name": "A.V. Bellarmin",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Tripura West",
+    "name": "Khagen Das",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Tripura East ",
+    "name": "Baju Ban Riyan",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Bijnor ",
+    "name": "Munshiram Singh",
+    "party": "Rashtriya Lok Dal"
+  },
+  {
+    "con": "Amroha",
+    "name": "Harish Nagpal",
+    "party": "Independent"
+  },
+  {
+    "con": "Moradabad",
+    "name": "Dr. Shafiqurrahman Barq",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Rampur",
+    "name": "P. Jaya Prada Nahata",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Sambhal",
+    "name": "Prof. Ram Gopal Yadav",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Budaun",
+    "name": "Saleem Iqbal Shervani",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Aonla",
+    "name": "Kunwar Sarvraj Singh",
+    "party": "Janata Dal (United)"
+  },
+  {
+    "con": "Bareilly",
+    "name": "Santosh Gangwar",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Pilibhit",
+    "name": "Maneka Gandhi",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Shahjahanpur",
+    "name": "Kunwar Jitin Prasad",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Kheri",
+    "name": "Ravi Prakash Verma",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Shahabad",
+    "name": "Iliyas Azmi",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Sitapur",
+    "name": "Rajesh Verma",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Misrikh ",
+    "name": "Ashok Kumar Rawat",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Hardoi ",
+    "name": "Usha Verma",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Lucknow",
+    "name": "Atal Bihari Vajpayee",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Mohanlalganj ",
+    "name": "Jai Prakash",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Unnao",
+    "name": "Brajesh Pathak",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Rae Bareli",
+    "name": "Sonia Gandhi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Pratapgarh",
+    "name": "Akshay Pratap Singh \"Gopal Ji\"",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Amethi",
+    "name": "Rahul Gandhi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Sultanpur",
+    "name": "Mohd. Tahir Khan",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Akbarpur ",
+    "name": "Mayawati",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Faizabad",
+    "name": "Mitrasen",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Bara Banki ",
+    "name": "Kamla Prasad",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Kaiserganj",
+    "name": "Beni Prasad Verma",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Bahraich",
+    "name": "Rubab Sayda",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Balrampur",
+    "name": "Brij Bhushan Sharan Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Gonda",
+    "name": "Kirti Vardhan Singh alias Raja Bhaiya",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Basti ",
+    "name": "Lal Mani Prasad",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Domariaganj",
+    "name": "Mohd. Muqueem",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Khalilabad",
+    "name": "Bhalchandra Yadava",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Bansgaon ",
+    "name": "Mahaveer Prasad",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Gorakhpur",
+    "name": "Aditya Nath",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Maharajganj",
+    "name": "Pankaj Choudhary",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Padrauna",
+    "name": "Baleshwar Yadav",
+    "party": "National Loktantrik Party"
+  },
+  {
+    "con": "Deoria",
+    "name": "Mohan Singh",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Salempur",
+    "name": "Harikeval Prasad",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Ballia",
+    "name": "Neeraj Shekhar",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Ghosi",
+    "name": "Chandradeo Prasad Rajbhar",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Azamgarh",
+    "name": "Ramakant Yadav",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Lalganj ",
+    "name": "Daroga Prasad Saroj",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Machlishahr",
+    "name": "Umakant Yadav",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Jaunpur",
+    "name": "Parasnath Yadava",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Saidpur ",
+    "name": "Tufani Saroj",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Ghazipur",
+    "name": "Afajal Ansari",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Chandauli",
+    "name": "Kailash Nath Singh Yadav",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Varanasi",
+    "name": "Dr. Rajesh Kumar Mishra",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Robertsganj ",
+    "name": "Lal Chandra Kol (Expelled from Lok Sabha)",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Robertsganj ",
+    "name": "Bhai Lal (2007 By-elections)",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Mirzapur",
+    "name": "Narendra Kushwaha (Expelled from Lok Sabha)",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Mirzapur",
+    "name": "Ramesh Dube(2007-By-elections)",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Phulpur",
+    "name": "Ateeq Ahamad",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Allahabad",
+    "name": "Kunwar Rewati Raman Singh Urf Mani Ji",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Chail ",
+    "name": "Shailendra Kumar",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Fatehpur",
+    "name": "Mahendra Prasad Nishad",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Banda",
+    "name": "Shyama Charan Gupta",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Hamirpur",
+    "name": "Rajnarayan alias Rajju Mahraj",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Jhansi",
+    "name": "Chandrapal Singh Yadav",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Jalaun ",
+    "name": "Bhanu Pratap Singh Verma",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Ghatampur ",
+    "name": "Radhey Shyam Kori",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Bilhaur",
+    "name": "Raja Ram Pal (Expelled from Lok Sabha)",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Bilhaur",
+    "name": "Anil Shukla Warsi (2007 By-elections)",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Kanpur",
+    "name": "Shriprakash Jaiswal",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Etawah",
+    "name": "Raghuraj Singh Shakya",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Kannauj",
+    "name": "Akhilesh Yadav",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Farrukhabad",
+    "name": "Chandra Bhushan Singh (Munnoo Babu)",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Mainpuri",
+    "name": "Mulayam Singh Yadav",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Jalesar",
+    "name": "Pro. S.P Singh Baghel",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Etah",
+    "name": "Ku. Devendra Singh Yadav",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Firozabad ",
+    "name": "Ram Ji Lal Suman",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Agra",
+    "name": "Raj Babbar",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Mathura",
+    "name": "Manvendra Singh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Hathras ",
+    "name": "Kishan Lal Diler",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Aligarh",
+    "name": "Bijendra Singh",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Khurja ",
+    "name": "Ashok Kumar Pradhan",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Bulandshahr",
+    "name": "Kalyan Singh",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Hapur",
+    "name": "Surendra Prakash Goyal",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Meerut",
+    "name": "Mohd. Shahid",
+    "party": "Bahujan Samaj Party"
+  },
+  {
+    "con": "Baghpat",
+    "name": "Ajit Singh",
+    "party": "Rashtriya Lok Dal"
+  },
+  {
+    "con": "Muzaffarnagar",
+    "name": "Munawwar Hasan",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Kairana",
+    "name": "Anuradha Choudhary",
+    "party": "Rashtriya Lok Dal"
+  },
+  {
+    "con": "Saharanpur",
+    "name": "Rasheed Masood",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Tehri Garhwal",
+    "name": "Vijay Bahuguna",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Garhwal",
+    "name": "Bhuwan Chandra Khanduri",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Almora",
+    "name": "Bachi Singh Rawat",
+    "party": "Bharatiya Janata Party"
+  },
+  {
+    "con": "Nainital",
+    "name": "Karan Chand Singh Baba",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Haridwar ",
+    "name": "Rajendra Kumar Badi",
+    "party": "Samajwadi Party"
+  },
+  {
+    "con": "Cooch Behar ",
+    "name": "Hiten Barman",
+    "party": "All India Forward Bloc"
+  },
+  {
+    "con": "Alipurduars ",
+    "name": "Joachim Baxla",
+    "party": "Revolutionary Socialist Party"
+  },
+  {
+    "con": "Jalpaiguri",
+    "name": "Minati Sen",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Darjeeling",
+    "name": "Dawa Narbula",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Raiganj",
+    "name": "Priya Ranjan Dasmunsi",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Balurghat ",
+    "name": "Ranen Barman",
+    "party": "Revolutionary Socialist Party"
+  },
+  {
+    "con": "Malda",
+    "name": "Abu Hashen Khan Chaudhury",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Jangipur",
+    "name": "Pranab Mukherjee",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Murshidabad",
+    "name": "Abdul Mannan Hossain",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Behrampore",
+    "name": "Adhir Ranjan Chowdhury",
+    "party": "Indian National Congress"
+  },
+  {
+    "con": "Krishnanagar",
+    "name": "Jyotirmoyee Sikdar",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Nabadwip ",
+    "name": "Alakesh Das",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Barasat",
+    "name": "Subrata Bose",
+    "party": "All India Forward Bloc"
+  },
+  {
+    "con": "Basirhat",
+    "name": "Ajay Chakraborty",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Joynagar ",
+    "name": "Sanat Kumar Mandal",
+    "party": "Revolutionary Socialist Party"
+  },
+  {
+    "con": "Mathurapur ",
+    "name": "Basudeb Barman",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Diamond Harbour",
+    "name": "Samik Lahiri",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Jadavpur",
+    "name": "Sujan Chakraborty",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Barrackpore",
+    "name": "Tarit Baran Topdar",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Dum Dum",
+    "name": "Amitava Nandy",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Calcutta North West",
+    "name": "Sudhangshu Seal",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Calcutta North East",
+    "name": "Mohammed Salim",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Calcutta South",
+    "name": "Mamata Banerjee",
+    "party": "Nationalist Trinamool Congress"
+  },
+  {
+    "con": "Howrah",
+    "name": "Swadesh Chakrabortty",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Uluberia",
+    "name": "Hannan Mollah",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Serampore",
+    "name": "Santasri Chatterjee",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Hooghly",
+    "name": "Rupchand Pal",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Arambagh",
+    "name": "Anil Basu",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Panskura",
+    "name": "Gurudas Dasgupta",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Tamluk",
+    "name": "Lakshman Chandra Seth",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Contai",
+    "name": "Prasanta Pradhan",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Midnapore",
+    "name": "Prabodh Panda",
+    "party": "Communist Party of India"
+  },
+  {
+    "con": "Jhargram ",
+    "name": "Rupchand Murmu",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Purulia",
+    "name": "Bir Singh Mahato (till 2006)",
+    "party": "All India Forward Bloc"
+  },
+  {
+    "con": "Purulia",
+    "name": "Narahari Mahato (By elections 2006)",
+    "party": "All India Forward Bloc"
+  },
+  {
+    "con": "Bankura",
+    "name": "Acharia Basudeb",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Vishnupur ",
+    "name": "Susmita Bauri",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Durgapur ",
+    "name": "Sunil Khan",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Asansol",
+    "name": "Bikash Chowdhury",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Burdwan",
+    "name": "Nikhilananda Sar",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Katwa",
+    "name": "Mahboob Zahedi",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Bolpur",
+    "name": "Somnath Chatterjee",
+    "party": "Communist Party of India (Marxist)"
+  },
+  {
+    "con": "Birbhum ",
+    "name": "Ram Chandra Dome",
+    "party": "Communist Party of India (Marxist)"
+  }
+]
+}
