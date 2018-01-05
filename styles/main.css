@@ -12,10 +12,22 @@ header#map {
   top: -100px;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.3); }
 
+#google_translate_element {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  right: 20px;
+  top: 20px; }
+
+.goog-te-combo {
+  padding: 10px 20px;
+  background: #FFF;
+  border: #16a085 2px solid; }
+
 .card .nmp {
   font-size: 20px;
   color: #999;
-  padding: 0px 20px; }
+  padding: 20px; }
 
 .card .nmp span {
   color: #222; }

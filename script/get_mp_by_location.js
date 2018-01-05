@@ -65,7 +65,6 @@ function renderCard(mp){
             <img src="./images/mps/${mp.profileId}.jpg" alt="${mp.name}" class="img-responsive img-circle" />
           </div>
           <div class="bi_wrap">
-            <h6>Basic information</h6>
             <p>
               <span>Name</span>
               <span> ${mp.name} </span>
