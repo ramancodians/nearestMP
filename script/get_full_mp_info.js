@@ -1,6 +1,4 @@
 (function(){
-  console.log("loaded");
-
   fetch('./data/2014/mp_list.0.1.json')
   .then(mplist => mplist.json())
   .then(mplist => {

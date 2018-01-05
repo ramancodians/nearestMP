@@ -1,0 +1,92 @@
+body{
+  padding-top: 55px;
+}
+
+header#map{
+  padding: 100px 0px;
+  min-height: 300px
+}
+
+.card{
+  max-width: 980px;
+  margin: 0px auto;
+  position: relative;
+  top: -100px;
+  box-shadow: 0px 5px 20px 0px rgba(0,0,0,0.3);
+}
+
+.card .nmp{ font-size: 20px; color: #999; padding: 0px 20px;}
+.card .nmp span{ color: #222; }
+
+.basic-info{
+  display: flex;
+  padding: 20px;
+  .img_wrap{
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    margin-right: 20px;
+    img{
+      width: 100%;
+    }
+  }
+  .bi_wrap{
+    flex: 1;
+    padding-top: 20px;
+    p{
+      padding: 0px;
+      margin: 0px;
+      span{
+        display: block;
+        &:first-child{
+          font-size: 14px;
+          color: #999;
+        }
+      }
+    }
+  }
+
+  .contact_wrap{
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    button{
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+.section{
+  padding: 20px;
+  background: rgba(0,0,0,0.1);
+
+  .sec_title{
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .stat{
+    text-align: center;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    padding: 20px 10px;
+    background: #FFF;
+
+    h6{ color: #16a085 }
+  }
+}
+
+.full_info{
+  padding-top: 30px;
+
+  & > h5{
+    border-bottom: 1px solid #999;
+    padding-bottom: 10px;
+  }
+}
+
+#card > div > main > div:nth-child(1) > div > table:nth-child(1){
+  display: none !important;
+}

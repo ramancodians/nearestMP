@@ -4,28 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/main.css">
   <title>Document</title>
 </head>
-<style>
-  #map{
-    height: 500px;
-    background: red;
-  }
-</style>
 <body>
+  <import href="./partials/nav.html"></import>
+  <header id="map">
+  </header>
 
-  <!-- <div id="map">asdasd</div> -->
-  <!-- <div id="card"></div> -->
 
+  <div id="card"></div>
+  <script src="bower_components/html-imports/html-imports.js"></script>
 
   <script
   src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
 
-<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq-jMCPwSN0LMAZZ-wwl82mKwvuEhsRL0"></script>
-<script src="./script/get_mp_by_location.js"></script> -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq-jMCPwSN0LMAZZ-wwl82mKwvuEhsRL0"></script>
+<script src="./script/get_mp_by_location.js"></script>
+<script id="dsq-count-scr" src="//neta-watch.disqus.com/count.js" async></script><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <!-- <script src="./script/connect_mp_to_location.js"></script> -->
-<script src="./script/get_full_mp_info.js"></script>
+<!-- <script src="./script/get_full_mp_info.js"></script> -->
+<!-- <script src="./script/link_con_to_mp.js"></script> -->
 </body>
 </html>

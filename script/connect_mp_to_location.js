@@ -1,13 +1,12 @@
 var LIST = [];
 (function(){
   let failedCount = 0, successCount = 0;
-  fetch("./../data/2014/mp_list_with_image.json", { method: "GET" })
+  fetch("./../data/2014/mp_list.0.2.json", { method: "GET" })
   .then( res => res.json())
   .then(res => {
-    let mpList = res.mp_list;
+    let mpList = res;
     let counter = 0;
     var to = setInterval(() => {
-
       if(counter > mpList.length - 1){
         console.log("################################################################");
         console.log("ALL DONE");
@@ -22,13 +21,7 @@ var LIST = [];
         console.log("calling for ", mp.name);
         getLocationBasedOnCity(mp.con)
         .then(coords => {
-          LIST.push({
-              con: mp.con,
-              party: mp.party,
-              name: mp.name,
-              photoURL: mp.photoURL,
-              coords,
-            })
+          LIST.push(Object.assign({}, mp, coords))
             console.log(`Done ${((counter/mpList.length)*100).toFixed(1)}%`)
             counter++;
         })
