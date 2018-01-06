@@ -6,6 +6,12 @@ header#map {
   min-height: 300px;
   border-bottom: #CCC solid 2px; }
 
+.search_form {
+  width: 100%;
+  padding: 0px 40px; }
+  .search_form input {
+    display: block; }
+
 .card {
   max-width: 980px;
   margin: 0px auto;
@@ -87,3 +93,27 @@ header#map {
 
 #card > div > main > div:nth-child(1) > div > table:nth-child(1) {
   display: none !important; }
+
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #FFF;
+  overflow: auto; }
+
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.autocomplete-selected {
+  background: #F0F0F0; }
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  color: #3399FF; }
+
+.autocomplete-group {
+  padding: 2px 5px; }
+
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000; }

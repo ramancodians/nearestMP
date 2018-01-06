@@ -1,9 +1,13 @@
+var LIST = [];
+var isAutosuggestInti = false;
+
 (function(){
   // Load MP LIST
   fetch('./../data/2014/list.0.1.json')
   .then(mpListRes => mpListRes.json())
   .then(mpListRes => {
     // get User location
+    LIST = mpListRes;
     window.navigator.geolocation.getCurrentPosition(
       (pos) => {
         var nearestMP = getNearestMP(pos.coords.latitude, pos.coords.longitude, mpListRes);
@@ -17,6 +21,11 @@
   // Smooth scroll
   $(window).on("scroll", () => {
     $("#map").css({ top: `${$(window).scrollTop()/2}px` })
+  })
+
+  // prevent form from submitting
+  $(".search_form").on("submit", (e) => {
+    e.preventDefault();
   })
 })(window, $)
 
@@ -224,5 +233,41 @@ function renderCard(mp){
     (d.head || d.body).appendChild(s);
     })();
 
+    if(!isAutosuggestInti){
+      $('#search-autocomplete').autocomplete({
+          lookupLimit: 10,
+          beforeRender: () => {
+            isAutosuggestInti = true
+          },
+          lookup: (q, done) => {
+            const results = LIST
+            .filter(x => {
+              const mat = x.name.toLowerCase().indexOf(q.toLowerCase()) > -1 ||
+              x.con.toLowerCase().indexOf(q.toLowerCase()) > -1
+              return mat
+            })
+            .map(x => { return { value: `${x.name} (${x.con})`, data: `${x.profileId}` }})
+            done({
+              suggestions: results,
+            })
+          },
+          onSelect: function (suggestion) {
+            window.location.hash = "/#" + suggestion.data;
+            const selectedMP = getMPById(suggestion.data)
+            renderCard(selectedMP)
+            console.log(selectedMP);
+          }
+      });
+    }
   })
+}
+
+
+function getMPById(id){
+  if(!LIST){
+    throw "No List available"
+  }else{
+    const mp = LIST.filter(x => parseInt(x.profileId) === parseInt(id))
+    return mp[0]
+  }
 }

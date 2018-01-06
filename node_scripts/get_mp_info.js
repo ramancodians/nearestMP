@@ -155,7 +155,8 @@ createBaseListFromLokSabha()
       .then(finalList => {
         fs.appendFile(`finalList.json`, JSON.stringify(finalList, null, 4), function (err) {
           if (err) console.error("failed!!");;
-          console.log('Saved!');
+          console.log('Total Records : ' + finalList.length);
+          console.log("Saved!");
         });
       })
     })
