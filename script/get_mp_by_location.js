@@ -12,7 +12,14 @@
         alert("Can't do much without location")
       })
   })
-})(window)
+
+
+  // Smooth scroll
+  $(window).on("scroll", () => {
+    $("#map").css({ top: `${$(window).scrollTop()/2}px` })
+  })
+})(window, $)
+
 
 
 function distance(lat1,lon1,lat2,lon2) {

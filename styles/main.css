@@ -3,7 +3,8 @@ body {
 
 header#map {
   padding: 100px 0px;
-  min-height: 300px; }
+  min-height: 300px;
+  border-bottom: #CCC solid 2px; }
 
 .card {
   max-width: 980px;
@@ -34,7 +35,8 @@ header#map {
 
 .basic-info {
   display: flex;
-  padding: 20px; }
+  padding: 20px;
+  padding-top: 0px; }
   .basic-info .img_wrap {
     max-width: 200px;
     max-height: 200px;
