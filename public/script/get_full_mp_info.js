@@ -1,5 +1,5 @@
 (function(){
-  fetch('./data/2014/mp_list.0.1.json')
+  fetch('public/data/2014/mp_list.0.1.json')
   .then(mplist => mplist.json())
   .then(mplist => {
 
