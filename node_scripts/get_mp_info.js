@@ -49,8 +49,7 @@ function linkWithGeocoords(baseList){
         console.log("################################################################");
         console.log("ALL DONE");
         clearInterval(to);
-        const uniqItems = _.uniqBy(LIST, "profileId");
-        resolve(uniqItems)
+        resolve(LIST)
       }else{
         let mp = baseList[counter];
         console.log("calling for ", mp.name);
@@ -114,7 +113,7 @@ function linkWithBloodMoney(baseList){
           crimalCase : $(tr).find('td:nth-child(5)').text().trim(),
           education : $(tr).find('td:nth-child(6)').text().trim(),
           totalAssets : $(tr).find('td:nth-child(7)').text().trim(),
-          liabilities : $(tr).find('td:nth-child(8)').text().trim(),
+          liabilities : $(tr).find('td:nth-child(8)').text().replace("~","|").trim(),
         }
         recordList.push(profile);
       })

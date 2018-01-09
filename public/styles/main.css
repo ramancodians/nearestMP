@@ -71,8 +71,35 @@ header#map {
       width: 100%; }
 
 .section {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.1); }
+  background: rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; }
+  .section .title_wrap {
+    background: #FFF;
+    border: 1px solid #CCC;
+    display: flex;
+    align-items: center; }
+    .section .title_wrap .icon {
+      padding: 5px;
+      background: #bdc3c7; }
+      .section .title_wrap .icon img {
+        width: 40px;
+        height: auto; }
+    .section .title_wrap h4 {
+      font-weight: normal;
+      padding-left: 20px; }
+  .section .key_val_list > p {
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #CCC;
+    display: flex; }
+    .section .key_val_list > p > span {
+      padding: 5px 20px; }
+      .section .key_val_list > p > span:nth-child(1) {
+        min-width: 220px;
+        color: #666; }
+      .section .key_val_list > p > span:nth-child(2) {
+        color: #222;
+        flex: 1; }
   .section .sec_title {
     font-weight: bold;
     margin-bottom: 20px; }
@@ -86,13 +113,23 @@ header#map {
       color: #16a085; }
 
 .full_info {
-  padding-top: 30px; }
+  padding: 30px; }
   .full_info > h5 {
     border-bottom: 1px solid #999;
     padding-bottom: 10px; }
 
-#card > div > main > div:nth-child(1) > div > table:nth-child(1) {
+.text-note {
+  font-size: 12px; }
+
+#card > div > main > div.full_info > div > div > div > div > table:nth-child(1) {
   display: none !important; }
+
+.padd_it {
+  padding: 20px; }
+
+footer {
+  background: rgba(204, 204, 204, 0.7);
+  padding: 40px 0px; }
 
 .autocomplete-suggestions {
   border: 1px solid #999;
