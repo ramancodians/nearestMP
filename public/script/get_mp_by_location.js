@@ -1,7 +1,7 @@
 var LIST = [];
 var isAutosuggestInti = false;
 const host = window.location.origin;
-
+var activeNeta = null;
 
 (function(){
   // Load MP LIST
@@ -75,8 +75,8 @@ function getNearestMP(clientLat, clientLag, mpList){
 }
 
 function renderCard(mp){
-  console.log(mp);
   // get MP full info
+  activeNeta = mp;
   fetch(`./../data/2014/html/${mp.profileId}.html`)
   .then(res => res.text())
   .then(fullInfoText => {
@@ -84,59 +84,77 @@ function renderCard(mp){
     const sons = $(fullInfoText).find("#ContentPlaceHolder1_DataGrid2 > tbody > tr > td > font > table > tbody > tr:nth-child(9) > td.griditem2").text()
     const daughter = $(fullInfoText).find("#ContentPlaceHolder1_DataGrid2 > tbody > tr > td > font > table > tbody > tr:nth-child(10) > td.griditem2").text()
     const totalKids = parseInt(sons || 0) + parseInt(daughter || 0);
+    let netas = _.sampleSize(LIST, 5)
     const html = `
-      <div class="card">
-        <div id="google_translate_element"></div>
-        <h1 class="nmp">Nearest Lok Sabha member is <span>${mp.name}</span></h1>
-        <div class="basic-info">
-          <div class="img_wrap">
-            <img src="./images/mps/${mp.profileId}.jpg" alt="${mp.name}" class="img-responsive img-circle" />
-          </div>
-          <div class="bi_wrap">
-            <p>
-              <span>Name</span>
-              <span> ${mp.name} </span>
-            </p>
-            <p>
-              <span>Party</span>
-              <span> ${mp.party} </span>
-            </p>
-            <p>
-              <span>Location</span>
-              <span> ${mp.con} </span>
-            </p>
-          </div>
-          <div class="contact_wrap">
-            <button class="btn btn-success">Contact</button>
-          </div>
-        </div>
+      <div class="card_wrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <div class="card">
+                <div id="google_translate_element"></div>
+                <h1 class="nmp">Nearest Lok Sabha member is <span>${mp.name}</span></h1>
+                <div class="basic-info">
+                  <div class="img_wrap">
+                    <img src="./images/mps/${mp.profileId}.jpg" alt="${mp.name}" class="img-responsive img-circle" />
+                  </div>
+                  <div class="bi_wrap">
+                    <p>
+                      <span>Name</span>
+                      <span> ${mp.name} </span>
+                    </p>
+                    <p>
+                      <span>Party</span>
+                      <span class="party">
+                        <span class="icon_wrap">
+                          ${renderPartyIcon(mp.party)}
+                        </span>
+                        <span class="p_name">
+                          <span> ${mp.party} </span>
+                        </span>
+                      </span>
+                    </p>
+                    <p>
+                      <span>Location</span>
+                      <span class="text-capitalize"> ${mp.con} </span>
+                    </p>
+                  </div>
+                  <div class="contact_wrap">
 
-        ${renderPersonalInfo(Object.assign({}, mp, {
-          profession: profession,
-          kids: totalKids,
-        }))}
-        ${renderPerticipation(mp)}
-        ${renderBlood(mp)}
-        ${renderFinanace(mp)}
+                  </div>
+                </div>
 
-        <main class="details">
-          <div class="full_info">
-            <h5>Full Info</h5>
-            <div class="row">
-              <div class="col-sm-12">
+                ${renderPersonalInfo(Object.assign({}, mp, {
+                  profession: profession,
+                  kids: totalKids,
+                }))}
+                ${renderPerticipation(mp)}
+                ${renderBlood(mp)}
+                ${renderFinanace(mp)}
+
+                <main class="details">
+                  <div class="full_info">
+                    <h5>Full Info</h5>
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="padd_it">
+                          ${fullInfoText}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="others">
+                  </div>
+                </main>
                 <div class="padd_it">
-                  ${fullInfoText}
+                  <div id="disqus_thread"></div>
                 </div>
               </div>
             </div>
+            <div class="col-md-3 no_padding">
+              <div class="side_bar"></div>
+            </div>
           </div>
-
-          <div class="others">
-            <h5>Stats</h5>
-          </div>
-        </main>
-        <div class="padd_it">
-          <div id="disqus_thread"></div>
         </div>
       </div>
     `
@@ -163,6 +181,7 @@ function renderCard(mp){
     this.page.url = window.location.href;  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = `mp_profile_${mp.profileId}`; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
+
     (function() { // DON'T EDIT BELOW THIS LINE
     var d = document, s = d.createElement('script');
     s.src = 'https://neta-watch.disqus.com/embed.js';
@@ -194,11 +213,64 @@ function renderCard(mp){
             window.location.hash = "#" + suggestion.data;
             const selectedMP = getMPById(suggestion.data)
             renderCard(selectedMP)
-            console.log(selectedMP);
           }
       });
     }
   })
+
+  // scrollTop
+  $(window).scrollTop(0)
+
+  // clear SarchText
+  $("#search-autocomplete").val("");
+
+  getNearByNetas(netas => {
+    renderNetasNearByNeta(netas)
+  })
+}
+
+function getNearByNetas(cb){
+  let netas = _.sampleSize(LIST, 5)
+  cb(netas)
+}
+
+function renderNetasNearByNeta(netas){
+  let mpList = _.map(netas, mp=> {
+    return `<div class="neta" data-mpid=${mp.profileId}>
+        <div class="icon_wrap">
+          <img src=${mp.photoURL} alt=${mp.name} />
+        </div>
+        <div class="details">
+          <p>${mp.name}</p>
+          <p class="text-capitalize">${mp.con}</p>
+          <p class="text-capitalize">${mp.party}</p>
+        </div>
+      </div>`
+  })
+  let html = `
+    <div>
+      <h6 class="title padd_it">
+        Other Politicians
+      </h6>
+      <div class="neta_list">
+        ${mpList.join("")}
+      </div>
+    </div>
+  `
+  setTimeout(() => {
+    let $sideBar = document.querySelector(".side_bar")
+    $sideBar.innerHTML = html.trim()
+    console.log("render Done!!");
+    $(".neta_list > .neta").click(function(){
+      let mpid = $(this).data("mpid");
+      let nextMp = getMPById(mpid)
+      renderCard(nextMp)
+    })
+  }, 400)
+
+  // handle neta click
+
+
 }
 
 
@@ -209,7 +281,9 @@ function renderPersonalInfo(mp){
         <div class="icon">
           <img src="${host}/images/icons/profile.png" alt="profile" />
         </div>
-        <h4>Personal Information</h4>
+        <div class="t_wrap">
+          <h4>Personal Information</h4>
+        </div>
       </div>
       <div class="row">
         <div class="col-sm-12">
@@ -248,7 +322,9 @@ function renderPerticipation(mp){
       <div class="icon">
         <img src="${host}/images/icons/part.png" alt="profile" />
       </div>
-      <h4>Participetion in Lok Sabha</h4>
+      <div class="t_wrap">
+        <h4>Participetion in Lok Sabha</h4>
+      </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
@@ -313,7 +389,9 @@ function renderBlood(mp){
       <div class="icon">
         <img src="${host}/images/icons/criminal.png" alt="profile" />
       </div>
-      <h4>Criminal Records</h4>
+      <div class="t_wrap">
+        <h4>Criminal Records</h4>
+      </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
@@ -322,12 +400,14 @@ function renderBlood(mp){
             <span>Criminal Cases</span>
             <span>${mp.crimalCase || "N/A"}</span>
           </p>
-          ${(parseInt(mp.crimalCase) != 0) ? renderCaseStat() : "" }
+
         </div>
       </div>
     </div>
   </div>
   `
+
+  //${(parseInt(mp.crimalCase) != 0) ? renderCaseStat() : "" }
 }
 
 
@@ -338,7 +418,9 @@ function renderFinanace(mp) {
       <div class="icon">
         <img src="${host}/images/icons/fin.png" alt="profile" />
       </div>
-      <h4>Finance</h4>
+      <div class="t_wrap">
+        <h4>Finance</h4>
+      </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
@@ -365,7 +447,7 @@ function attendanceCompare(mp){
   if(mp.Attendance === "N/A"){
     return ""
   }
-  
+
   return `
     (
       <strong>
@@ -385,6 +467,9 @@ function attendanceCompare(mp){
 }
 
 function debateCompare(mp){
+  return ""
+
+  // TODO
   let nationAvgDif = (parseInt(mp.Debates || 0) / parseInt(mp["National Debates average"])) *  100
   let stateDif = parseInt(mp.Debates || 0) - parseInt(mp["State's Attendance average"])
   if(mp.Debates === "N/A"){
@@ -434,4 +519,43 @@ function calculateMPRating(mp){
   // Debates points
 
   console.log("----->>", points);
+}
+
+function renderPartyIcon(party){
+  console.log("asdadas =---", party);
+  let src = null
+  if(party.toLowerCase().trim() === "bharatiya janata party"){
+    src = `${host}/images/party/bjp.jpg`
+  }else if(party.toLowerCase().trim() === "indian national congress"){
+    src = `${host}/images/party/inc.png`
+  }else if(party.toLowerCase().trim() === "all india anna dravida munnetra kazhagam"){
+    src = `${host}/images/party/AIADMK.jpg`
+  }else if(party.toLowerCase().trim() === "independents"){
+    src = `${host}/images/party/indi.png`
+  }else if(party.toLowerCase().trim() === "aam aadmi party"){
+    src = `${host}/images/party/aap.jpg`
+  }else if(party.toLowerCase().trim() === "telugu desam party"){
+    src = `${host}/images/party/tdp.jpg`
+  }else if(party.toLowerCase().trim() === "jharkhand mukti morcha"){
+    src = `${host}/images/party/jmm.png`
+  }else if(party.toLowerCase().trim() === "all india trinamool congress"){
+    src = `${host}/images/party/aitc.jpg`
+  }else if(party.toLowerCase().trim() === "telangana rashtra samithi"){
+    src = `${host}/images/party/trs.jpg`
+  }else if(party.toLowerCase().trim() === "communist party of india"){
+    src = `${host}/images/party/cpm.jpg`
+  }else if(party.toLowerCase().trim() === "all india n.r. congress"){
+    src = `${host}/images/party/op1.png`
+  }else if(party.toLowerCase().trim() === "jammu and kashmir national conference"){
+    src = `${host}/images/party/jkm.jpg`
+  }else if(party.toLowerCase().trim() === "rashtriya lok samta party"){
+    src = `${host}/images/party/op2.jpg`
+  }else if(party.toLowerCase().trim() === "jammu and kashmir national conference"){
+    src = `${host}/images/party/jkm.jpg`
+  }else{
+    src = `${host}/images/party/noops.svg`
+  }
+
+
+  return `<img src=${src} alt=${party} />`
 }

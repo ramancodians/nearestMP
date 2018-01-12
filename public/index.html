@@ -35,7 +35,11 @@
 
   <import href="./partials/nav.html"></import>
   <header id="map"></header>
-  <div id="card"></div>
+  <div id="card" class="text-center">
+      <img src="./images/loader.gif" alt="">
+      <h6>Loading...</h6>
+
+  </div>
   <import href="./partials/footer.html"></import>
 
   <!-- Scripts -->
@@ -44,7 +48,7 @@
   <script src="./components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script src="libs/autocomplete.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBq-jMCPwSN0LMAZZ-wwl82mKwvuEhsRL0"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+  <script src="./components/lodash/dist/lodash.min.js"></script>
   <script src="./script/get_mp_by_location.js"></script>
   <script id="dsq-count-scr" src="//neta-watch.disqus.com/count.js" async></script><script type="text/javascript">
     function googleTranslateElementInit() {
