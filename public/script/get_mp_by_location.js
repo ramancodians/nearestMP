@@ -9,13 +9,13 @@ const host = window.location.origin;
   .then(mpListRes => mpListRes.json())
   .then(mpListRes => {
     // get User location
-    LIST = mpListRes;
+    LIST = _.unionBy(mpListRes, "profileId");
 
     if(window.location.hash === ""){
       console.log("FETCH FROM location");
       window.navigator.geolocation.getCurrentPosition(
         (pos) => {
-          var nearestMP = getNearestMP(pos.coords.latitude, pos.coords.longitude, mpListRes);
+          var nearestMP = getNearestMP(pos.coords.latitude, pos.coords.longitude, LIST);
           renderCard(nearestMP)
         }, (error) => {
           alert("Can't do much without location")
@@ -24,9 +24,7 @@ const host = window.location.origin;
       console.log("FETCH FROM ID")
       renderCard(getMPById(window.location.hash.replace("#","")))
     }
-
   })
-
 
   // Smooth scroll
   $(window).on("scroll", () => {
