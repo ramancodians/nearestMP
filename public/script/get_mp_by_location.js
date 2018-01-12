@@ -119,8 +119,6 @@ function renderCard(mp){
         ${renderBlood(mp)}
         ${renderFinanace(mp)}
 
-
-
         <main class="details">
           <div class="full_info">
             <h5>Full Info</h5>
@@ -363,9 +361,11 @@ function renderFinanace(mp) {
 function attendanceCompare(mp){
   let nationAvgDif = (parseInt(mp.Attendance.replace("%", "")) || 0) - parseInt(mp["National Attendance average"].replace("%", ""))
   let stateDif = (parseInt(mp.Attendance.replace("%", "")) || 0) - parseInt(mp["State's Attendance average"].replace("%", ""))
+
   if(mp.Attendance === "N/A"){
     return ""
   }
+  
   return `
     (
       <strong>

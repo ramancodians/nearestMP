@@ -1,3 +1,4 @@
+/*Screen Breakoints*/
 body {
   padding-top: 55px; }
 
@@ -9,6 +10,9 @@ header#map {
 .search_form {
   width: 100%;
   padding: 0px 40px; }
+  @media (max-width: 768px) {
+    .search_form {
+      padding: 0px; } }
   .search_form input {
     display: block; }
 
@@ -43,11 +47,15 @@ header#map {
   display: flex;
   padding: 20px;
   padding-top: 0px; }
+  @media (max-width: 768px) {
+    .basic-info {
+      flex-direction: column; } }
   .basic-info .img_wrap {
     max-width: 200px;
     max-height: 200px;
     overflow: hidden;
-    margin-right: 20px; }
+    margin: 0px auto;
+    padding-right: 20px; }
     .basic-info .img_wrap img {
       width: 100%; }
   .basic-info .bi_wrap {
@@ -97,9 +105,15 @@ header#map {
       .section .key_val_list > p > span:nth-child(1) {
         min-width: 220px;
         color: #666; }
+        @media (max-width: 768px) {
+          .section .key_val_list > p > span:nth-child(1) {
+            min-width: 100px; } }
       .section .key_val_list > p > span:nth-child(2) {
         color: #222;
         flex: 1; }
+        @media (max-width: 768px) {
+          .section .key_val_list > p > span:nth-child(2) {
+            text-align: right; } }
   .section .sec_title {
     font-weight: bold;
     margin-bottom: 20px; }
@@ -113,7 +127,11 @@ header#map {
       color: #16a085; }
 
 .full_info {
-  padding: 30px; }
+  padding: 30px;
+  overflow: scroll; }
+  @media (max-width: 768px) {
+    .full_info {
+      padding: 10px; } }
   .full_info > h5 {
     border-bottom: 1px solid #999;
     padding-bottom: 10px; }

@@ -1,3 +1,6 @@
+
+@import "partials/mq.scss";
+
 body{
   padding-top: 55px;
 }
@@ -11,6 +14,10 @@ header#map{
 .search_form{
   width: 100%;
   padding: 0px 40px;
+
+  @include tablet{
+    padding: 0px;
+  };
 
   input{
     display: block;
@@ -45,11 +52,16 @@ header#map{
   display: flex;
   padding: 20px;
   padding-top: 0px;
+
+  @include tablet{
+      flex-direction: column;
+  }
   .img_wrap{
     max-width: 200px;
     max-height: 200px;
     overflow: hidden;
-    margin-right: 20px;
+    margin: 0px auto;
+    padding-right: 20px;
     img{
       width: 100%;
     }
@@ -119,10 +131,16 @@ header#map{
         &:nth-child(1){
           min-width: 220px;
           color: #666;
+          @include tablet{
+            min-width: 100px;
+          }
         }
         &:nth-child(2){
           color: #222;
           flex: 1;
+          @include tablet{
+            text-align: right;
+          }
         }
       }
     }
@@ -145,6 +163,11 @@ header#map{
 
 .full_info{
   padding: 30px;
+  overflow: scroll;
+
+  @include tablet{
+    padding: 10px;
+  }
 
   & > h5{
     border-bottom: 1px solid #999;

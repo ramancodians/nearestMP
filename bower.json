@@ -2,8 +2,9 @@
   "name": "nearest_mp",
   "description": "This application will help you find your nearest MP, get information about them and also contact them",
   "main": "index.js",
+  "directory": "public/libraries",
   "authors": [
-    "Raman Choudhary <ramanc@syncroutesoftware.com>"
+    "Raman Choudhary <ramanc@love.com>"
   ],
   "license": "ISC",
   "homepage": "https://github.com/ramancodians/nearestMP",
@@ -15,7 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "html-imports": "*",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "4.0",
+    "jquery": "^3.2.1",
+    "html-imports": "*"
   }
 }
