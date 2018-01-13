@@ -242,10 +242,36 @@ header#map{
 footer{
   background: rgba(#CCC, 0.7);
   padding: 40px 0px;
+
+  .credit_list{
+    padding: 0px;
+    margin: 0px;
+    li{
+      margin: 5px;
+      max-width: 150px;
+      display: inline-block;
+
+      img{
+        width: 50px;
+      }
+      a{
+        display: inline-block;
+        line-height: 0.9;
+        font-size: 12px;
+      }
+    }
+  }
 }
 
 .no_padding{
   padding: 0px !important;
+}
+
+.btn-donate{
+  min-width: 200px;
+  font-weight: bold;
+  color: #FFF !important;
+  opacity: 1;
 }
 
 .side_bar{
