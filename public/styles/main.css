@@ -136,7 +136,6 @@ header#map {
     .section .key_val_list > p {
       margin: 0px;
       padding: 0px;
-      border-bottom: 1px solid #CCC;
       display: flex; }
       .section .key_val_list > p > span {
         padding: 5px 20px; }
@@ -282,3 +281,17 @@ footer {
 .autocomplete-group strong {
   display: block;
   border-bottom: 1px solid #000; }
+
+.feedback_wrap {
+  background: red;
+  position: fixed;
+  right: -100px;
+  top: 40vh;
+  padding: 5px 10px 20px 10px;
+  color: #FFF;
+  background: #27ae60;
+  border-radius: 5px;
+  transform: rotate(-90deg); }
+  .feedback_wrap a {
+    color: #FFF;
+    text-decoration: none; }

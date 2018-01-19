@@ -23,22 +23,29 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="fevi/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
-
   <meta property="og:title" content="Neta Watch | All information a voter needs to vote"/>
   <meta property="og:image" content="social.webp"/>
   <meta property="og:site_name" content="Neta Watch"/>
   <meta property="og:description" content="Think of it as Zomato for politicians. Where people can rank and rate their politicians for their actions and background."/>
 
-  <title>Neta Watch | All information a voter needs to vote</title>
+  <title>Neta Watch Analysis</title>
+
+  <style>
+    header#map{
+      display: none;
+    }
+    .card{
+      top: 0px;
+    }
+  </style>
 </head>
 <body>
 
   <import href="./partials/nav.html"></import>
   <header id="map"></header>
-  <div id="card" class="text-center">
+  <div id="card" class="text-center" class="analysis">
       <img src="./images/loader.gif" alt="">
       <h6>Loading...</h6>
-
   </div>
   <import href="./partials/feedback.html"></import>
   <import href="./partials/footer.html"></import>

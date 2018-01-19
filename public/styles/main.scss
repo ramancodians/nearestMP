@@ -175,7 +175,7 @@ header#map{
     & > p{
       margin: 0px;
       padding: 0px;
-      border-bottom: 1px solid #CCC;
+      //border-bottom: 1px solid #CCC;
       display: flex;
 
       & > span{
@@ -354,3 +354,17 @@ footer{
 .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
 .autocomplete-group { padding: 2px 5px; }
 .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
+.feedback_wrap{
+  background: red;
+  position: fixed;
+  right: -100px;
+  top: 40vh;
+  padding: 5px 10px 20px 10px;
+  color: #FFF;
+  background: #27ae60;
+  border-radius: 5px;
+  transform: rotate(-90deg);
+
+  a{color: #FFF; text-decoration: none;}
+}

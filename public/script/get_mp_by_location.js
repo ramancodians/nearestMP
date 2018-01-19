@@ -10,22 +10,35 @@ var activeNeta = null;
   .then(mpListRes => {
     // get User location
     LIST = _.unionBy(mpListRes, "profileId");
+    const HASH = window.location.hash
+    const PATH = window.location.pathname
 
-    if(window.location.hash === ""){
+    if(HASH === "" && PATH === "/"){
       console.log("FETCH FROM location");
       window.navigator.geolocation.getCurrentPosition(
         (pos) => {
           var nearestMP = getNearestMP(pos.coords.latitude, pos.coords.longitude, LIST);
           renderCard(nearestMP)
         }, (error) => {
-          alert("Can't do much without location")
+          // handle location disable
+
+          // try to get location based on IP
+          getLocationFromIP()
+          .then(res => {
+            var nearestMP = getNearestMP(res.location.lat, res.location.lng.longitude, LIST);
+            renderCard(nearestMP)
+          })
         })
+    }else if(PATH === "/analysis.html"){
+      // load analysis
+      console.log("render analysis");
+      renderAnalysis();
+
     }else{
-      console.log("FETCH FROM ID")
+      console.log("FETCH BASED ON URL")
       renderCard(getMPById(window.location.hash.replace("#","")))
     }
   })
-
   // Smooth scroll
   $(window).on("scroll", () => {
     $("#map").css({ top: `${$(window).scrollTop()/2}px` })
@@ -37,6 +50,22 @@ var activeNeta = null;
   })
 })(window, $)
 
+function renderAnalysis(){
+  const html = `
+    <div class="card">
+      <h1>analysis</h1>
+    </div>
+  `
+  const $card = document.querySelector('#card')
+  $card.innerHTML = html;
+}
+
+
+function getLocationFromIP(){
+  const KEY = "AIzaSyBq-jMCPwSN0LMAZZ-wwl82mKwvuEhsRL0"
+  return fetch(`https://www.googleapis.com/geolocation/v1/geolocate?key=${KEY}`, { method: "POST" })
+  .then(res => res.json())
+}
 
 
 function distance(lat1,lon1,lat2,lon2) {
@@ -515,7 +544,6 @@ function calculateMPRating(mp){
   else if(attendance >= 85 && attendance <= 90){ allot(6) }
   else if(attendance >= 90 && attendance <= 95){ allot(7) }
   else if(attendance > 95){ allot(10) }
-
   // Debates points
 
   console.log("----->>", points);
@@ -555,7 +583,5 @@ function renderPartyIcon(party){
   }else{
     src = `${host}/images/party/noops.svg`
   }
-
-
   return `<img src=${src} alt=${party} />`
 }
