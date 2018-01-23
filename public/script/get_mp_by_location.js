@@ -61,6 +61,15 @@ function renderAnalysis(){
 }
 
 
+function getMPsWithHighestCrimeRate(){
+  if(!LIST){
+    return []
+  } else{
+    LIST.map
+  }
+
+}
+
 function getLocationFromIP(){
   const KEY = "AIzaSyBq-jMCPwSN0LMAZZ-wwl82mKwvuEhsRL0"
   return fetch(`https://www.googleapis.com/geolocation/v1/geolocate?key=${KEY}`, { method: "POST" })
