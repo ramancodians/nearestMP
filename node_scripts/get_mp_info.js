@@ -86,8 +86,10 @@ function linkWithGeocoords(baseList){
 function getLocationBasedOnCity(city){
   return new Promise((resolve, reject) => {
     const gmap = "https://maps.googleapis.com/maps/api/geocode/json?address="
-    const key = "AIzaSyDyJhcHF_VWFRdulWCUJLFdoPbxdlU0r0k"
-    fetch(`${gmap}${city.toLowerCase()}&key=${key}`)
+    const key = "AIzaSyDaW8mPN6ZGbLunQcj0k6QhTC_mehLlRdk"
+    const finalURL = `${gmap}${city.toLowerCase()}&key=${key}`
+    console.log(finalURL);
+    fetch(finalURL)
     .then(res1 => res1.json())
     .then(res1 => {
       if(res1 && !res1.error_message){
@@ -160,7 +162,7 @@ function openProfile(url){
   .catch(e => console.error(e))
 }
 
-// Magin Happends Here
+// Magic Happends Here
 createBaseListFromLokSabha()
 .then(baseList => {
   linkWithGeocoords(baseList)
