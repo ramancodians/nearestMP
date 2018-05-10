@@ -305,10 +305,6 @@ function renderNetasNearByNeta(netas){
       renderCard(nextMp)
     })
   }, 400)
-
-  // handle neta click
-
-
 }
 
 
@@ -404,7 +400,6 @@ function renderPerticipation(mp){
 
 
 function renderBlood(mp){
-
   let renderCaseStat = () => {
     return `
         <p>
@@ -554,8 +549,6 @@ function calculateMPRating(mp){
   else if(attendance >= 90 && attendance <= 95){ allot(7) }
   else if(attendance > 95){ allot(10) }
   // Debates points
-
-  console.log("----->>", points);
 }
 
 function renderPartyIcon(party){

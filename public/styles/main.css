@@ -7,6 +7,13 @@ header#map {
   min-height: 300px;
   border-bottom: #CCC solid 2px; }
 
+#mainNav .new-link {
+  font-weight: bold;
+  opacity: 1; }
+  #mainNav .new-link a {
+    opacity: 1;
+    color: #FFF; }
+
 .search_form {
   width: 100%;
   padding: 0px 40px; }
