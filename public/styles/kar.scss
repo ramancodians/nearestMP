@@ -1,0 +1,81 @@
+@import "partials/mq.scss";
+
+body{
+  background: #f1f1f1;
+}
+
+.neta-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+.header{
+  background: #34495e;
+  width: 100%;
+  display: block;
+  padding: 100px 0px;
+  text-align: center;
+  color: #FFF;
+}
+
+.neta-card{
+  border-radius: 2px;
+  display: flex;
+  margin-top: 20px;
+  background: #FFF;
+  border-radius: 4px;
+  border: 1px solid #EEE;
+  width: calc(33% - 10px);
+  margin-left: 10px;
+
+  @include tablet {
+    width: calc(100%);
+    flex: 1;
+  }
+
+  &.ok { background-color: rgba(#f39c12, 0.1); }
+  &.bad{ background-color: rgba(#c0392b, 0.2); }
+
+  .party-wrap{
+    width: 100px;
+    img{
+      width: 100%;
+      border: 3px solid #CCC;
+    }
+  }
+
+  .details-wrap {
+    padding: 20px;
+    flex: 1;
+
+    .info{
+      flex: 1;
+      width: 100%;
+      border-bottom: 1px solid #CCC;
+      label{
+        font-size: 12px;
+        color: #999;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+      }
+      p{
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+
+        br {
+          display: none;
+        }
+      }
+    }
+
+    span.cc{
+      font-weight: bold;
+      &.ok {color: #f39c12; }
+      &.good { color: #27ae60;}
+      &.bad{ color: #c0392b; }
+    }
+  }
+}

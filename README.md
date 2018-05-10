@@ -24,4 +24,4 @@ Think of it as Zomato for politicians. Where people can rank and rate their poli
 3. Install `node_modules`, run `npm install`
 4. Install `npm install --save bower` and then 'bower install'
 5. In project directory run `live-server`
-6. To compile SASS use `node-sass public/styles/main.scss public/styles/main.css --watch`
+6. To compile SASS use `node-sass public/styles -o public/styles --watch`
